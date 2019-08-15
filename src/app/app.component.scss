@@ -1,0 +1,40 @@
+
+*        { font-family:Verdana,Arial,Helvetica,sans-serif
+
+; font-size: 11px;margin:0px; }
+pre, tt, code, samp, kbd, xmp, listing, plaintext { font-family: Verdana,Arial,Helvetica,sans-serif
+; }
+h2       { font-size: 15px; }
+.article { padding-bottom: 5px; }
+.source    {font-size: 14px; color: #ffffff; font-weight: normal;}
+ .date    { font-family: Georgia, Times, serif; color:#ffffff; font-size:14px; margin-bottom:4px; }    
+.title    { font-family: Helvetica, Arial sans-serif; color:#ffffff; font-weight:bold; font-size:26px; line-height:18px; margin-bottom:0px; }
+
+.title a:link   {font-family:Helvetica, Arial sans-serif; color:#ECAA1F; font-size:14px; line-height:18px; margin-bottom:0px; text-decoration:none; }
+.title a:visited { font-family:Helvetica, Arial sans-serif; color:#ECAA1F; font-size:14px; line-height:18px; margin-bottom:0px; text-decoration:none; }
+.title a:hover  { font-family:Helvetica, Arial sans-serif; color:#ECAA1F; text-decoration:underline; }
+
+a:link   {font-family:Helvetica, Arial sans-serif; color:#ffffff; font-size:13px; line-height:18px; margin-bottom:0px; text-decoration:none; }
+a:visited{font-family:Helvetica, Arial sans-serif; color:#ffffff; font-size:13px; line-height:18px; margin-bottom:0px; text-decoration:none; }
+a:hover  {font-family:Helvetica, Arial sans-serif; color:#ffffff; font-size:13px; line-height:18px; margin-bottom:0px; text-decoration:none; }
+
+
+.slider {
+    bottom: 1em;
+    position: relative;
+    animation: slider 20s linear infinite;
+    list-style-type: none;
+    overflow: hidden;
+  
+ 
+}
+
+.slider:hover {
+    animation-play-state: running;
+   
+}
+
+@keyframes slider {
+    0%   { bottom:   45em }
+    100% { bottom: -14em }
+}
